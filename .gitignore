@@ -1,0 +1,43 @@
+# Runtime state and credentials
+.codetrail/
+.mewcode/
+.claude/
+.env
+.env.*
+!.env.example
+config.yaml
+config.local.yaml
+*.log
+*.pem
+*.key
+
+# Python, tests and packages
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+dist/
+build/
+*.zip
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Browser tooling
+.playwright-mcp/
+example-com-snapshot.md
+example-*.md
+
+# Local personal notes
+/private-notes/
+/personal-notes/
+/docs/PORTFOLIO.md
+/docs/INTERVIEW*.md
+/docs/RESUME*.md

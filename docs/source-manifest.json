@@ -1,0 +1,799 @@
+{
+  "source": "User-provided tutorial archive downloaded from Xiaolin Coding (per user)",
+  "archive_name": "mewcode-python.zip",
+  "archive_sha256": "d2e57b9d44164478058e596975d1616fdc4e96d502d7e56b3a21fa6562361b3a",
+  "reference_repository": "https://github.com/Tianba0116/mewcode",
+  "reference_commit": "38d5273c32b443a669d52de4b633610afdc6a0d9",
+  "reference_is_verified_upstream": false,
+  "root_license_in_archive": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "db2dc3aae358fe4e34376a493e2683bc80c8e23b430da0e90f65fee719cb0cb2"
+    },
+    {
+      "path": "MEWCODE.md",
+      "sha256": "cc077282d168910fa2d060b9f1073b2ccb90eba43d18d43d1a59f3b6d25a2c26"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "582f62198de5692868054cd5fa90ee56efb1ef89eadc1e20f4fc1acfd2b332ed"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "b4c2aaf845266448a965a8aca909b2543eadb902e5a49ae54139a88ad02e2b51"
+    },
+    {
+      "path": ".mewcode/config.yaml.example",
+      "sha256": "9dd62dc7e245f38f2492d2f927d3dc9c82b6b1abce897d0297101b50d9ecdcce"
+    },
+    {
+      "path": ".mewcode/skills/frontend-design/LICENSE.txt",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+    },
+    {
+      "path": ".mewcode/skills/frontend-design/SKILL.md",
+      "sha256": "8fa9a108b3b95d488caff3a5ee2c6a74c6ad297e8b10421e1b3bf0d53307de89"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/LICENSE.txt",
+      "sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/SKILL.md",
+      "sha256": "a8bc7baca2883a8e428f25ceb0188ffb1eef91a09c1427f7f60494316bbebf1c"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/agents/analyzer.md",
+      "sha256": "bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/agents/comparator.md",
+      "sha256": "fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/agents/grader.md",
+      "sha256": "57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/assets/eval_review.html",
+      "sha256": "ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/eval-viewer/generate_review.py",
+      "sha256": "1478f4dbf9acce9d18444a42b0aa1c5d1fa8e1df361df289a57b42ad89cdf774"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/eval-viewer/viewer.html",
+      "sha256": "8d2747c20ba13585ae897f049c7474f8c168dc23af7b45cd7929af531db7226e"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/references/schemas.md",
+      "sha256": "5c42432511dcc2d3413c5425de4044d5bf3f8e328f80b5e1afe816676e205c54"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/aggregate_benchmark.py",
+      "sha256": "a807e31408faf59e002226df84332ca801c795fdbe6a1e7cb8ed28b29aff5dcc"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/generate_report.py",
+      "sha256": "2196b6e20c5fc7a4a579899e92abd2a7421b491ad732c50091741894e1f02d43"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/improve_description.py",
+      "sha256": "b5e552d182604d5f9741240713c70a794d73e3aa746f113e81409036492a5c0e"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/package_skill.py",
+      "sha256": "b9e62bd2b1a9bc4fe994aa14f5cda0a651ee18eeb5b85dc02103a436143b5c17"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/quick_validate.py",
+      "sha256": "547ad34bcaf629db5fb63ff9d575f625075fb762f70787b63937440f0be7dfc1"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/run_eval.py",
+      "sha256": "8eed12dfd40217d1aba5e587f92c63d9a92d429e7f2f38ea5c0f2ee656280258"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/run_loop.py",
+      "sha256": "6d6f6178455da0aa2ce1381fd33b863ef2cfda79583ba947e709119992d3436c"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/utils.py",
+      "sha256": "61923c62393dc91d060065aae4487287f93cbb287c1652862d645f5d4c540dd0"
+    },
+    {
+      "path": ".mewcode/skills/skill-creator/scripts/__init__.py",
+      "sha256": "3c0a5e518206eb1525db45174eae2af0d81082d457791b8e992d28a1e0b72dca"
+    },
+    {
+      "path": "mewcode/agent.py",
+      "sha256": "2e34e25f5e4f3ed46fe700590a43c3b39bc9f7817e4e5b8c8c1174bfddb3c969"
+    },
+    {
+      "path": "mewcode/app.py",
+      "sha256": "4dfcfc092dc6555e9b4d43502323da56fd7724f0f44daac140f4d96d8ac519dd"
+    },
+    {
+      "path": "mewcode/askuser_dialog.py",
+      "sha256": "afe6b2ba5467826aa5cc716b952690b3d849363317e5bcedecf7dbc8a4f9a3d3"
+    },
+    {
+      "path": "mewcode/client.py",
+      "sha256": "1ba759d11d0a26bbbfba442497481bfbc24ab1040316b3fda53aac606e1f86bf"
+    },
+    {
+      "path": "mewcode/config.py",
+      "sha256": "798f717794dea2ac47c4cddc5698a72adfea882ef3447784cc4d6b89c5dfbdb2"
+    },
+    {
+      "path": "mewcode/conversation.py",
+      "sha256": "ea4db8675dbca196a0e73265682b5e1874647a5e0cd97985de1e0cbc0c9f67d7"
+    },
+    {
+      "path": "mewcode/conversation_pairing.py",
+      "sha256": "4336055154e950007192d765adcf3293c1ccc3f4a6d345ef990ed800dec150ce"
+    },
+    {
+      "path": "mewcode/driver.py",
+      "sha256": "e1c24780ca124a683a64a6d1b9eec37fe25e06b3cb2d515ec93f14eea5e39873"
+    },
+    {
+      "path": "mewcode/permission_dialog.py",
+      "sha256": "0706ecbf9ced45363e0f75b7aff86b22382849db5056e8eb558c51ecfa7e5613"
+    },
+    {
+      "path": "mewcode/plan_dialog.py",
+      "sha256": "2cd62b557ce95613e2642244402d306ab468b8b2e4a5af01e23d95281094a302"
+    },
+    {
+      "path": "mewcode/prompts.py",
+      "sha256": "3f410bff3e8d960d9ddd6be1633c6217fcf4ebe5ffc16cf2ccc6d212705ad04d"
+    },
+    {
+      "path": "mewcode/remote.py",
+      "sha256": "fd875184f372047ff8c053844ebbf72f5a514b404700f3faa82c9f6c73ca19b7"
+    },
+    {
+      "path": "mewcode/serialization.py",
+      "sha256": "e2ff9e5bf0d7e614d7955cc8c80740b758c14e45a66a495a7ad0688f13d3833c"
+    },
+    {
+      "path": "mewcode/session_dialog.py",
+      "sha256": "f0e7f8d2b6421548a478885a0ea1437f8f413e6a84483f10b3cd315a149d8353"
+    },
+    {
+      "path": "mewcode/styles.tcss",
+      "sha256": "bef599b42c5e490a7a7d5fd6f923910fb3163f7b1ee5f7e16ec4e515b346c826"
+    },
+    {
+      "path": "mewcode/teammate_tree.py",
+      "sha256": "744b0ffdd0ed84385e2b3e5732cdafc1c384f9ee57f8f424e39c9ea30543b940"
+    },
+    {
+      "path": "mewcode/validator.py",
+      "sha256": "824f1d0845dbd2548c7a31350bdbea9f91ab63a7a974a9773bf887baf2038b88"
+    },
+    {
+      "path": "mewcode/web_content.py",
+      "sha256": "48f68a8fe57ac85f3c42734ea1849c1e6b96eb44903c1ffcd308ddb7e9ba4eba"
+    },
+    {
+      "path": "mewcode/__init__.py",
+      "sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6"
+    },
+    {
+      "path": "mewcode/__main__.py",
+      "sha256": "08934285614f8d6787d62b5a5de1696fb38bb14f0e88902d67e3cec6cd06ead2"
+    },
+    {
+      "path": "mewcode/agents/fork.py",
+      "sha256": "94caaa807c116b02d336384efa59c2721594bdd46f665a827ba68e4c410d48e2"
+    },
+    {
+      "path": "mewcode/agents/loader.py",
+      "sha256": "36f33bc18a5226c46481fb814f6490e9815f136d3fd3bdd7f5c39e2f5ba0f4c0"
+    },
+    {
+      "path": "mewcode/agents/notification.py",
+      "sha256": "228694016bc8d2a81f202dc0f9db7b67c0b7dbd80d5a3d7ce8b404354ca890da"
+    },
+    {
+      "path": "mewcode/agents/parser.py",
+      "sha256": "8163343ce3dfdd72c90f0a1464fe2aab1c30017e03d473c98297aecde726a179"
+    },
+    {
+      "path": "mewcode/agents/task_manager.py",
+      "sha256": "bafee442700f25e3a4d22a2974d28ddcde063e46c9174b3cd28bbf9200f65008"
+    },
+    {
+      "path": "mewcode/agents/tool_filter.py",
+      "sha256": "f117a1a27cbbf07ecbc7ddf131aeeff92dc0396d59cad7685e6120a099ffceaf"
+    },
+    {
+      "path": "mewcode/agents/trace.py",
+      "sha256": "01197d87cb4d78072f71374630dfb92eddc64abbe115a1ffb89a8f820b786d20"
+    },
+    {
+      "path": "mewcode/agents/__init__.py",
+      "sha256": "3e6260fe06a9cc1593522431bcf58b6020b5a6c7de910beabbbecbadb2d8e968"
+    },
+    {
+      "path": "mewcode/agents/builtins/explore.md",
+      "sha256": "4c064ba4a3fb0ffef45516ce25886776cd55076a3c4e39ecc04c97c85e53d61a"
+    },
+    {
+      "path": "mewcode/agents/builtins/general-purpose.md",
+      "sha256": "a2e77e9eb91ab3c792c15b4f5c8d355bf7641e9fe33f1f9bbaf87d544df3bd56"
+    },
+    {
+      "path": "mewcode/agents/builtins/plan.md",
+      "sha256": "f6f7f8e5f5353479bff9325d7b48d1b88236d8941a9db2d037fb1565c692ef02"
+    },
+    {
+      "path": "mewcode/agents/builtins/verification.md",
+      "sha256": "b55b15d09ad8f0dd569fa80fdec1de093013f4e09ab0133d7af0fa3fcb0f53bf"
+    },
+    {
+      "path": "mewcode/agents/builtins/__init__.py",
+      "sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6"
+    },
+    {
+      "path": "mewcode/commands/completion.py",
+      "sha256": "1c5c4c40a5a10c33624d6f09186965a6d16e859bdaadeb2514a94256cb175fc7"
+    },
+    {
+      "path": "mewcode/commands/loader.py",
+      "sha256": "d63d5198759595e864fa87512aef0a0cb8005c35013dd742d607c41d0befdf70"
+    },
+    {
+      "path": "mewcode/commands/parser.py",
+      "sha256": "a603158122bef60ed9e3fb155f313e9c6cef94b3ebfff282521e922b11d5f6aa"
+    },
+    {
+      "path": "mewcode/commands/registry.py",
+      "sha256": "fbfe1a4ae8a29b77b2cb82a138f4666b318d370f05d74a02e39f233220a9e453"
+    },
+    {
+      "path": "mewcode/commands/__init__.py",
+      "sha256": "c6ec6952e2d1f990437ff5e9e64c52f3944a134e559e513569bbaf824f973aec"
+    },
+    {
+      "path": "mewcode/commands/handlers/clear.py",
+      "sha256": "055ca0c6c2f8c7ec8b896297e13a39434694ac2b5ee4e879459bdccc036dd7a8"
+    },
+    {
+      "path": "mewcode/commands/handlers/compact.py",
+      "sha256": "b395f4e2bd2fb77dbb8d64afcec3a85bd12ec0486f9b8476f4b369b1fc7286c8"
+    },
+    {
+      "path": "mewcode/commands/handlers/help.py",
+      "sha256": "636ee0585df09c7fa24f76ed419b39ffefa3dcd37d7ca6b7b3f80c241d78481c"
+    },
+    {
+      "path": "mewcode/commands/handlers/mcp.py",
+      "sha256": "1cb6fff1af7a3aa3ffc680f75a8e4f24aff3857d86e2636592499b606a5e7ecc"
+    },
+    {
+      "path": "mewcode/commands/handlers/memory.py",
+      "sha256": "3d85363ef3bde5afea02d6f6bb7472176d64673b039e809fa4db4cff37c4bf06"
+    },
+    {
+      "path": "mewcode/commands/handlers/permission.py",
+      "sha256": "41bf2322220499fe310b0e6a2999e8ad6be1aebe8e58d2c12d8cc92d10b7f4ef"
+    },
+    {
+      "path": "mewcode/commands/handlers/plan.py",
+      "sha256": "86bfcda106e29d9edd0895086937bb1d9e3167094321f7ddfd029207c4ff84c3"
+    },
+    {
+      "path": "mewcode/commands/handlers/review.py",
+      "sha256": "704f2dd5163c276f773580aa424f39b8832fbb7b625d9630d8e2a0fcd5b01894"
+    },
+    {
+      "path": "mewcode/commands/handlers/rewind.py",
+      "sha256": "8dda69c276991bcbc45970cd7f6f4b7ba3e72fea4e01d87efbda90aa757391d3"
+    },
+    {
+      "path": "mewcode/commands/handlers/sandbox.py",
+      "sha256": "45b628e0c51d47b57a5b22834fc86f1f2e44f68d075810e72f8d1b7ac2e20aaf"
+    },
+    {
+      "path": "mewcode/commands/handlers/session.py",
+      "sha256": "42dd2a433df463273ce73c0868f976c4f6dede866f8a3d4c46f3053efd04c179"
+    },
+    {
+      "path": "mewcode/commands/handlers/skill.py",
+      "sha256": "06ab821a1a3397c0ef4e2d4b3a17993aca8e36a9802950fc8c80296966116926"
+    },
+    {
+      "path": "mewcode/commands/handlers/skill_register.py",
+      "sha256": "b3bc8e1f4ce5ba793d82b50be124a058451401f3ed7664db7c6a4515225d9f66"
+    },
+    {
+      "path": "mewcode/commands/handlers/status.py",
+      "sha256": "03e7912136c0fdf61c73c1064f70a6b10f18bcc67f094acedcdd6de1f83edc96"
+    },
+    {
+      "path": "mewcode/commands/handlers/tasks.py",
+      "sha256": "7ff315f0c635654e3b60de2785ca1674ac2b7783ca39659119024c20451f0327"
+    },
+    {
+      "path": "mewcode/commands/handlers/trace.py",
+      "sha256": "2f41a5db79787bad7fb42cf9a37a9bbdeb6628f9bbb8276366a794c324322108"
+    },
+    {
+      "path": "mewcode/commands/handlers/worktree.py",
+      "sha256": "abd0ebaaa8d11016b50c2cc009bcd936d3c6e13d703eb6c56311ad8754d254ea"
+    },
+    {
+      "path": "mewcode/commands/handlers/__init__.py",
+      "sha256": "156cb2502884549090ef0779ba00eac502ca561e31b7cea1fcc77b8209d8c72e"
+    },
+    {
+      "path": "mewcode/context/manager.py",
+      "sha256": "3dbacde6fa38e5ac5cb9a963e4931b0d0ba109e137f9f13394eb7cf834cb5833"
+    },
+    {
+      "path": "mewcode/context/__init__.py",
+      "sha256": "9c534b5463ec92f27c0eed2f472e460c3f5be96dd8a01fcc6c55d47c1e994735"
+    },
+    {
+      "path": "mewcode/filehistory/history.py",
+      "sha256": "8a56c3b899ed6e8096dfe061d846f49887e30a49f3d15d3b4943d2b0544b6402"
+    },
+    {
+      "path": "mewcode/filehistory/__init__.py",
+      "sha256": "9c51aa48decf8958cb4cc9058e651f279093ca9ec458592aff9e6d9c12cf209c"
+    },
+    {
+      "path": "mewcode/hooks/conditions.py",
+      "sha256": "d11485198df8f4ebf76a009c4b13eaf51883ae0a1bbc14f734779d684817f870"
+    },
+    {
+      "path": "mewcode/hooks/engine.py",
+      "sha256": "3849e6ab273da8359b361e90cabadbb0da11bb547b0cc768294d30611a336c55"
+    },
+    {
+      "path": "mewcode/hooks/events.py",
+      "sha256": "80ddc57659d63b4a6edca6254f1e95d6e0b6e06a6101749e33368503cd6ee4e8"
+    },
+    {
+      "path": "mewcode/hooks/executors.py",
+      "sha256": "6320bc6b049e9b15bf819dbc760b2e65ad46255f52b4b24b6f202cecd891aa72"
+    },
+    {
+      "path": "mewcode/hooks/loader.py",
+      "sha256": "f70cd9c61d908f98f7666171aae1789f806cdd5bc04ea518f2e6219c01d38914"
+    },
+    {
+      "path": "mewcode/hooks/models.py",
+      "sha256": "0a07d8f977875f523398ca5972eb11c1be0a074df7045711e758f92bfb416e19"
+    },
+    {
+      "path": "mewcode/hooks/__init__.py",
+      "sha256": "eeadeda2a7005fef1b6736466449cec121f75d949dfd014de90fa46a873641c9"
+    },
+    {
+      "path": "mewcode/mcp/client.py",
+      "sha256": "6ae938078ee3cd58e496867a732efb1632e2d2848fd8358ae3132966df6b050b"
+    },
+    {
+      "path": "mewcode/mcp/manager.py",
+      "sha256": "1ff4eb9fc2b983141768adc47059bf565684d3cccb38b57b44fa97565d69197d"
+    },
+    {
+      "path": "mewcode/mcp/tool_wrapper.py",
+      "sha256": "10013fbe64ba819e3f8049c59ab9ec338a413544c2ac20bbcbd99960b7fafaac"
+    },
+    {
+      "path": "mewcode/mcp/__init__.py",
+      "sha256": "1c61fd6f08dc5e6de98ab97e8644246922a93ee3e879e9425d9aa23276b35231"
+    },
+    {
+      "path": "mewcode/memory/auto_memory.py",
+      "sha256": "541b09b4ab66af430ea6deffc895bdf46cf48c5ad5d98438c3a68218199be73b"
+    },
+    {
+      "path": "mewcode/memory/consolidation.py",
+      "sha256": "f70fbfd492f0a0086cad59455d2d6ebfe7612d74f48482871c54b5acf3c98173"
+    },
+    {
+      "path": "mewcode/memory/instructions.py",
+      "sha256": "c7af443eceaca3e26119b82000a165562216d5c1bcd04626656fe9433d9749da"
+    },
+    {
+      "path": "mewcode/memory/recall.py",
+      "sha256": "4830e291e0aed2ffadfd4ec7d54198975044ae86041d62eee0ee996b12fdb7bd"
+    },
+    {
+      "path": "mewcode/memory/session.py",
+      "sha256": "29680ac533fe7a8c2591669e8863b67f3a856d543890df5224f36c541e7c9b0c"
+    },
+    {
+      "path": "mewcode/memory/__init__.py",
+      "sha256": "f24d20724eb36462565ad1ff57d0f8a9190629b0edaa5950e8b015e50dd0f38b"
+    },
+    {
+      "path": "mewcode/permissions/checker.py",
+      "sha256": "64816f88814f558d44be293e88cc5b43c5aff2c8558712bf6698ad75b056bf33"
+    },
+    {
+      "path": "mewcode/permissions/dangerous.py",
+      "sha256": "6de120e749f1aaa3ea12fe657891c0b2bf944d26e5de33bdefecbd0bf6443d95"
+    },
+    {
+      "path": "mewcode/permissions/modes.py",
+      "sha256": "524406d0e2ba8f78f863296fd59adb5edd6c955e36525672a488a50a7dceac28"
+    },
+    {
+      "path": "mewcode/permissions/rules.py",
+      "sha256": "14602da5e5824b39c5239cccbba103b92f07caa8231ad2e922a285d8673715f7"
+    },
+    {
+      "path": "mewcode/permissions/sandbox.py",
+      "sha256": "10aea8df6c0053ab32c0f29379c931e42100c5fd3d4a46cb67ad440f60d5178d"
+    },
+    {
+      "path": "mewcode/permissions/__init__.py",
+      "sha256": "4ba4fce645a7b225cc349bb15c785282b238d2f7a5f0e6b21d2c0df67dd6ed0b"
+    },
+    {
+      "path": "mewcode/sandbox/bwrap.py",
+      "sha256": "dc1f5cf9fb40dbfaa720936e413d5b0c76cd22c622f24605d96e960c70e6da66"
+    },
+    {
+      "path": "mewcode/sandbox/seatbelt.py",
+      "sha256": "01f0195cb029c81f84cd1a5faab56bfd5ddfc0af59341911d926baa942006752"
+    },
+    {
+      "path": "mewcode/sandbox/__init__.py",
+      "sha256": "9c0bf0e02715611a81618dd68d1c2cc62e8426e912bf3d87b56371cc3ddb70c8"
+    },
+    {
+      "path": "mewcode/skills/executor.py",
+      "sha256": "adf85d6eca7a44ffe3904bf8adc8f20b3e415aa22ffc46b31f4f8a71680624f4"
+    },
+    {
+      "path": "mewcode/skills/install.py",
+      "sha256": "68dc8a2c700ed11de2f3ff99511976e43df17f0034b85c5bf7fce9927d7690e1"
+    },
+    {
+      "path": "mewcode/skills/loader.py",
+      "sha256": "18c16e6c623d7b47d5a94608f1bc50510f18e5ebcd2b31200eb353c2842d60c4"
+    },
+    {
+      "path": "mewcode/skills/parser.py",
+      "sha256": "87a28c8fd0ed2222ff83c7da0ab47129c46058ffd02868e67bec530b5c60ec2a"
+    },
+    {
+      "path": "mewcode/skills/__init__.py",
+      "sha256": "e3dd72fd2125adeff487dffa4556581e34ad069f2b94224b24df91a6832b12c5"
+    },
+    {
+      "path": "mewcode/skills/builtins/__init__.py",
+      "sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6"
+    },
+    {
+      "path": "mewcode/teams/backend_detect.py",
+      "sha256": "51d1341b6b2ea87bb1b7337751403245cc26436605695f5dc9d10429fe1f51e0"
+    },
+    {
+      "path": "mewcode/teams/coordinator.py",
+      "sha256": "9b76858fc95a708288c9d5be75300e0405c85f935d5c3c78bb82a095f797c8fc"
+    },
+    {
+      "path": "mewcode/teams/mailbox.py",
+      "sha256": "3d3cfc58e902997c9ac5b51b446c28199e765637b4120a5f9257f551a54d1055"
+    },
+    {
+      "path": "mewcode/teams/manager.py",
+      "sha256": "0e9202ac5543d7bab700dfa5a43ef16cd11844a3d2cf8e52d9bc36f0705ace5c"
+    },
+    {
+      "path": "mewcode/teams/models.py",
+      "sha256": "e485167560adbb476d5c4212922be1606480917d99773d00ab1dccadfdbad710"
+    },
+    {
+      "path": "mewcode/teams/progress.py",
+      "sha256": "3fd0b2adf15690dff0273015558f787226c4d14bdb0167b521923531ff55cd3e"
+    },
+    {
+      "path": "mewcode/teams/protocol.py",
+      "sha256": "d31d34e359133ef900318896601cb066fbf7846e5b7d07b983ef1b40ef375b45"
+    },
+    {
+      "path": "mewcode/teams/registry.py",
+      "sha256": "81e4030eaa09b8961409072e466c2866b11eb1caf06f1295c721bbc1acb353e7"
+    },
+    {
+      "path": "mewcode/teams/shared_task.py",
+      "sha256": "0bbab37fefc2c23ee53a98f086444e30eb597396acae72b694b6c60134724c26"
+    },
+    {
+      "path": "mewcode/teams/spawn.py",
+      "sha256": "2525c2e2ef39a1fe78acf545ea8c743b36bf5b2534f6a0b628cc1c1ca909d5d6"
+    },
+    {
+      "path": "mewcode/teams/spawn_inprocess.py",
+      "sha256": "a503f586d4efe8aed81b819affa0eaa2ac76db3c9fe6670e174335c19328dbeb"
+    },
+    {
+      "path": "mewcode/teams/spawn_iterm2.py",
+      "sha256": "bda63435eb3780e530b3650aedec7eaf48c8bdd94912293c29aa9cd804a0f66f"
+    },
+    {
+      "path": "mewcode/teams/spawn_tmux.py",
+      "sha256": "4e0082d43b5c8a83be4da0eaa7b12c480d0547979b8cd6963266791af70b2b22"
+    },
+    {
+      "path": "mewcode/teams/transcript.py",
+      "sha256": "98fe1d12ad09a19cb35c88ab7d0e35ef3832e791ac15096eadf64137742838dd"
+    },
+    {
+      "path": "mewcode/teams/__init__.py",
+      "sha256": "0fbc8c2d541304b512cb416ee347980280dc5b88688f0461e9ac6a13100d3517"
+    },
+    {
+      "path": "mewcode/tools/agent_tool.py",
+      "sha256": "f9ea93ce792cb74c7307930e9af1dceeac88aa34e4d0dd074a780a07ecd4ecc7"
+    },
+    {
+      "path": "mewcode/tools/ask_user.py",
+      "sha256": "fc3bbb851597308890da4cf2a62a0feff5a1662fd9c4b35d8d9a5abfe171c6c9"
+    },
+    {
+      "path": "mewcode/tools/base.py",
+      "sha256": "93eb1f3468284cea15c0e581bd2d0d3fa77773916c330ddfa57088e63fb360ab"
+    },
+    {
+      "path": "mewcode/tools/bash.py",
+      "sha256": "1178f150a44ef5784ab38a21023a4c94260b7e1ffd61214b5ca569157c2d3eed"
+    },
+    {
+      "path": "mewcode/tools/diff.py",
+      "sha256": "657b865fc735441c031508139f8a1d06272f9acb8c7017ee3358543ab829f6e7"
+    },
+    {
+      "path": "mewcode/tools/edit_file.py",
+      "sha256": "4db4571b556c0f06340b1ad185356b98a2eb939ecdbddbae64f0ad51992bd5b3"
+    },
+    {
+      "path": "mewcode/tools/enter_worktree.py",
+      "sha256": "d099ece2784af5f843ec4d8ce47f967b99125838baf267a06cace47258a5e67e"
+    },
+    {
+      "path": "mewcode/tools/exit_plan_mode.py",
+      "sha256": "754375d9f9710fca1b799c96045edf6dc7b76dd719bb160d2663ed8e5c5b2aa4"
+    },
+    {
+      "path": "mewcode/tools/exit_worktree.py",
+      "sha256": "2e4031c3023115d94b3a72c5501f5c39dc2930fe8950ea34cf60d1af6dd51950"
+    },
+    {
+      "path": "mewcode/tools/file_state_cache.py",
+      "sha256": "60d62c35962146b0d6948fe8f0cc6a298e4d3edb4f1fb5dd04c6e790eef3da3e"
+    },
+    {
+      "path": "mewcode/tools/glob.py",
+      "sha256": "1c0aa84b336d976dc2b4b0c8d43fee53174f2abfa73e05ac25522baa833c5733"
+    },
+    {
+      "path": "mewcode/tools/grep.py",
+      "sha256": "5407a428025edbff6d48ce4dfad82c71787fcf122fb924c21c318a5675fec228"
+    },
+    {
+      "path": "mewcode/tools/install_skill.py",
+      "sha256": "f79f76e8243f57c67df761d57cc5a0efda969bee199319042cf8892b24dc4a9f"
+    },
+    {
+      "path": "mewcode/tools/load_skill.py",
+      "sha256": "a4a357fe20ea72113be59203577d0f4066415b0ba132154bd33dd1dfcb081134"
+    },
+    {
+      "path": "mewcode/tools/read_file.py",
+      "sha256": "18fd656ba78698782a1dd483513cc26372e81e53e811ab6b60616bcf1e501417"
+    },
+    {
+      "path": "mewcode/tools/send_message.py",
+      "sha256": "f69b3421b3ccea2541a2cd8e0f89cec92bdd94d0198cb1874ea20933895d8377"
+    },
+    {
+      "path": "mewcode/tools/synthetic_output.py",
+      "sha256": "0ab19384b4fc61d5f9e04634343281a69df4d4ccde04f9c75b0954f2605fabd4"
+    },
+    {
+      "path": "mewcode/tools/task_create.py",
+      "sha256": "95d37b386b289f5e9d7e014ec091d9bfb4503c688f7fe2674f96e9b2a0459276"
+    },
+    {
+      "path": "mewcode/tools/task_get.py",
+      "sha256": "7f897811a516511bbde82b7981af6f94fdff1ba0b7ee4df756177d30d20f1f0f"
+    },
+    {
+      "path": "mewcode/tools/task_list.py",
+      "sha256": "fa3b3014d26f95a100b27bb220c787f93405cdd7d70fd856f6b110c017a9913f"
+    },
+    {
+      "path": "mewcode/tools/task_stop.py",
+      "sha256": "71345ae91196be6c9ee8dcc75f41793c0c21b776668d8f5451fcb67f69fe7f50"
+    },
+    {
+      "path": "mewcode/tools/task_update.py",
+      "sha256": "f7337199668ca8f66a0a4179cb863f33b2d68a458907d3e104aab44cfef553f9"
+    },
+    {
+      "path": "mewcode/tools/team_create.py",
+      "sha256": "0d302466137c1ef614b30132c5258f3ddcd01b098e2535f66eb89b84e28be82a"
+    },
+    {
+      "path": "mewcode/tools/team_delete.py",
+      "sha256": "46489876875313cadaac7cd5aa89cb56f870aa55ca7fac8e1339339c32488236"
+    },
+    {
+      "path": "mewcode/tools/write_file.py",
+      "sha256": "30c267ba4359f537db11f7e5480cfc6912ddbd49836172a03a6c5b16388f8bdb"
+    },
+    {
+      "path": "mewcode/tools/__init__.py",
+      "sha256": "55c7acfabaf7b8a80be2601bd528fde63a7a99b00a87fd07e64fc269032bc8ca"
+    },
+    {
+      "path": "mewcode/tools/impl/tool_search.py",
+      "sha256": "97b070b7ea835820711c7672aed62744b96714d10ddd0916c609f04baafa7c8b"
+    },
+    {
+      "path": "mewcode/tools/impl/__init__.py",
+      "sha256": "912b03d585da1e8fa109dc2773d2ef81879503771b988d8a0f50f090d2ea7ed6"
+    },
+    {
+      "path": "mewcode/worktree/changes.py",
+      "sha256": "c6fb2558390f33730f600d9da23dbdb32d2680658271ea03d67cf5368529e1d4"
+    },
+    {
+      "path": "mewcode/worktree/cleanup.py",
+      "sha256": "682639b1b2e5cd2cbb0e589858ea91aa4ae03a0cd7114ce4b1376728039cf2d2"
+    },
+    {
+      "path": "mewcode/worktree/integration.py",
+      "sha256": "e591873be8edd05b148f98692407968eb39c721d7156092c15d698692751c88e"
+    },
+    {
+      "path": "mewcode/worktree/manager.py",
+      "sha256": "e2d174439a5a6674fcfe7114d7dd197908a35f0db8ddf09f3a6be89c9a0f72d7"
+    },
+    {
+      "path": "mewcode/worktree/models.py",
+      "sha256": "96ae44187b0f16061909feddaebe31a3accbb9cf3f1e9d1abfce82adab9a5eff"
+    },
+    {
+      "path": "mewcode/worktree/session.py",
+      "sha256": "8394b33e4427374ef1d46fd5a20bac85d8a6b20eeb7b00b897a5911e8f0cd706"
+    },
+    {
+      "path": "mewcode/worktree/setup.py",
+      "sha256": "220d3d72283334ad7d68a28734a0b207ca395b88fa3c66b8b24496efcf8f7bd6"
+    },
+    {
+      "path": "mewcode/worktree/slug.py",
+      "sha256": "bad85f5d429d23a8355b113d324964fc0f8d18f71a4004cc9eecc68ab1957fa5"
+    },
+    {
+      "path": "mewcode/worktree/__init__.py",
+      "sha256": "3a585e9cdc8bb6cc49ee9295389dee68a739b3c4802dfc5691a2a98ab470d364"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "0fa01230cd1543e02322e8162e87dee049acbe762eed1239fbf0580458b1758a"
+    },
+    {
+      "path": "tests/test_agent.py",
+      "sha256": "0fc5b769653bcc1c95ce0d7d2d75ddf03a3949177d833f7f53f71a368a6c25c7"
+    },
+    {
+      "path": "tests/test_clear.py",
+      "sha256": "e569157f1e8f65fc08790b3bc3b503b0fc9df89f4b8b590a8d4dc0916d685724"
+    },
+    {
+      "path": "tests/test_commands.py",
+      "sha256": "1608f7a21d522d80ca4d100a30bc164ed12a1e6452e2916ae806e5f79dda908e"
+    },
+    {
+      "path": "tests/test_consolidation.py",
+      "sha256": "92e6562ea636761619c0ec09b87d267fc24996bbe80d4fde0283fca6b36dbb6a"
+    },
+    {
+      "path": "tests/test_context.py",
+      "sha256": "23f7407a01e210c6288abd02d811534fa1ebc1ccf325602bf15e2120e2aeba14"
+    },
+    {
+      "path": "tests/test_context_window.py",
+      "sha256": "060b88f7ecb3768bdb99ab35542bfc9899fdfd86f20663127199aa30231dd695"
+    },
+    {
+      "path": "tests/test_conversation_pairing.py",
+      "sha256": "222fdfc892c0beb06babb484932042add21277c7390b876b23d7d17c5a3e5c50"
+    },
+    {
+      "path": "tests/test_coordinator_multi_team.py",
+      "sha256": "e7aa267da8301f0b32830778c3c78754d91ee27fd53f80101ab7084d8c21fae2"
+    },
+    {
+      "path": "tests/test_diff.py",
+      "sha256": "8078fe8340fe0ac3a030a628a7b07d75b1f96fb77410f2c8ec891d2fd75ea7fa"
+    },
+    {
+      "path": "tests/test_edit_file.py",
+      "sha256": "0af2ad0693381968960314bf660e2a5eca461b6fc117b8442c026b4ce532de03"
+    },
+    {
+      "path": "tests/test_hello_world.py",
+      "sha256": "dde20eb73159e294e4190766a5da7f53d96682da3c675d5c868428e828b746e1"
+    },
+    {
+      "path": "tests/test_hooks.py",
+      "sha256": "a110ff420af0564e7eeb3ecbf3fa8dc3e420e3bd1da45a83880ac84a3337998f"
+    },
+    {
+      "path": "tests/test_mcp.py",
+      "sha256": "0a875fd56883c06756241cd6ec8bac5d21dd59da293af711e572846984aadf1f"
+    },
+    {
+      "path": "tests/test_memory.py",
+      "sha256": "a973209276ca12b60e1b06dc996a817f844c0b6a4fa416fcdf49c943b50e842a"
+    },
+    {
+      "path": "tests/test_permissions.py",
+      "sha256": "1f233ae7be69c9310e50ffa216ef7f5a1dd996223494410d21c66b8acd1499ba"
+    },
+    {
+      "path": "tests/test_recovery.py",
+      "sha256": "d5457b2c2fdf95cb073de9543843ffc922ff1c1e6f1e7c50fa498dbd48270f06"
+    },
+    {
+      "path": "tests/test_serialization.py",
+      "sha256": "e85295cbb5a38c98fdf1d5096dc9d6b840f653222030a1acf48befd2706257b0"
+    },
+    {
+      "path": "tests/test_skills.py",
+      "sha256": "61b3ac79df2a8fcfa2b6bbf14b235d222bfecb2024523feda215821ca17086f1"
+    },
+    {
+      "path": "tests/test_subagent.py",
+      "sha256": "dab2a51c0d40a4c99fca123d3235796ee19f96ab7d42152d600b490f4d9ed6ce"
+    },
+    {
+      "path": "tests/test_teammate_registry.py",
+      "sha256": "056d36af2feae0ddb5532665da19c95ce14386e8018da1e3348b6bc5da05724a"
+    },
+    {
+      "path": "tests/test_teams.py",
+      "sha256": "e382cd4204c254900e33c3da7d4b39d83b1b6fd2550764d0b64c8873eb107d9c"
+    },
+    {
+      "path": "tests/test_team_protocol.py",
+      "sha256": "007f0ad6cec45ffe70e8f9747b684c1e17c7fd95f10926c03a369fb42fad457f"
+    },
+    {
+      "path": "tests/test_toolresult_wiring.py",
+      "sha256": "8cf47bf1447daac774886885de71a381adab08af486c4d23fb46a36efbb4516a"
+    },
+    {
+      "path": "tests/test_tool_call_block.py",
+      "sha256": "97be026b8451c015061804d1b70d0b913263dced4a5fbc7d3b2429466d21de17"
+    },
+    {
+      "path": "tests/test_tool_search.py",
+      "sha256": "742f3a22fc3e119419d22c479c4add4733b67498a28d16cadf552e407f7a2768"
+    },
+    {
+      "path": "tests/test_worktree.py",
+      "sha256": "3dfcabda3df44300c85f69688465fd45237db078345ecaa701cf5e19225fa6c8"
+    },
+    {
+      "path": "tests/verify_subagent.py",
+      "sha256": "2908e7b15fa6d455d469eb060f6804daefca2faf721bc4dc89fc0137647377f9"
+    }
+  ]
+}

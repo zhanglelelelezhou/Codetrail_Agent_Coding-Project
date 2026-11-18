@@ -1,0 +1,10 @@
+# Set the environment variable and replace model with an ID your account can use.
+providers:
+  - name: openai
+    protocol: openai
+    base_url: https://api.openai.com/v1
+    model: gpt-4o
+    api_key: ${OPENAI_API_KEY}
+
+permission_mode: default
+mcp_servers: []
